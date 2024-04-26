@@ -1,3 +1,4 @@
+// find long word
 const string = "this is first challange in javascript";
 console.log(finglongword(string));
 function finglongword(string) {

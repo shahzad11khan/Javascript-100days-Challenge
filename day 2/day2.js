@@ -1,4 +1,5 @@
 // my practice prgram
+// create an array with in specific range
 const arr = [];
 let res = "";
 for (let i = 0; i < 6; i++) {

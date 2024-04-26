@@ -1,4 +1,5 @@
 // my practice
+// repeat the string
 const str = "challenges";
 const num = 5;
 let concat = "";
