@@ -6,8 +6,9 @@ let password = "Shahzad khan1";
 // let password = "";
 const checkpassword = password.split(" ").join("");
 console.log("Remove space from the middle: ", checkpassword);
-
-if (checkpassword === "") {
+if (password.includes(" ")) {
+  return true; // Password is valid
+} else if (checkpassword === "") {
   console.log("Enter password....!");
 } else if (checkpassword.length < 8) {
   console.log("password length must be at least 8 characters");
