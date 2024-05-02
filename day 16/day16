@@ -1,0 +1,40 @@
+// find equal number (even and odd) in an array
+// check the lenght of odd and even element
+// if 2 even number then 2 odd number is must be
+let array = [1, 3, 2, 4, 5, 6, 7];
+let resultarray = [];
+let even = [];
+let odd = [];
+let isTrue = true;
+console.log("Array", array);
+for (let i = 0; i < array.length; i++) {
+  if (array[i] % 2 == 0) {
+    console.log("number is Even", array[i]);
+    even.push(array[i]);
+  }
+
+  if (array[i] % 2 == 1) {
+    console.log("number is Odd", array[i]);
+    odd.push(array[i]);
+  }
+}
+
+let add = even.length + odd.length;
+
+if (even.length == odd.length) {
+  isTrue = true;
+  resultarray = [...even, ...odd];
+} else {
+  for (let i = 0; i < even.length; i++) {
+    resultarray.push(even[i]);
+    if (i < odd.length) {
+      resultarray.push(odd[i]);
+    }
+  }
+  isTrue = false;
+}
+console.log("Even", even);
+console.log("Odd", odd);
+console.log("add", add);
+console.log("Result is true or false /: ", isTrue);
+console.log("Result", resultarray);
