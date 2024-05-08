@@ -1,7 +1,7 @@
 // fint factorial with out loop
 // Recursion method call by self
 // DSA point of you question
-
+// direct recursion
 let data = 5;
 const factorial = (data) => {
   if (data === 0) {
