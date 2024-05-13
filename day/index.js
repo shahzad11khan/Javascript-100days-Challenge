@@ -3,9 +3,9 @@
 // console.log(no1);
 
 // uderstanding of hositing
-sayhellow();
-console.log(i);
 function sayhellow() {
   console.log("hello");
 }
+sayhellow();
 var i = 10;
+console.log(i);
