@@ -10,11 +10,13 @@ function findOdd(array) {
     if (inputArry.length === 0) {
       return;
     }
-    if (inputArry % 2 !== 0) {
+    if (inputArry[0] % 2 !== 0) {
       result.push(inputArry[0]);
     }
     helperRecursiveFunction(inputArry.slice(1)); // helper recursive function
   }
   helperRecursiveFunction(array); //first time call
+  return result;
 }
-findOdd(array);
+const oddresult = findOdd(array);
+console.log(oddresult);
