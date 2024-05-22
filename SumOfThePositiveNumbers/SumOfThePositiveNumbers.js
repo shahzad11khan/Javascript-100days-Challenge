@@ -1,4 +1,4 @@
-// some the positive numbers in array
+// sum the positive numbers in array
 let array = [1, 2, -9, -5, 9];
 
 let sum = 0;
