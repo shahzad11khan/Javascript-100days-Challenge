@@ -1,4 +1,5 @@
-// Here’s an example of a JavaScript function that takes another function as an argument and then calls it to show console.log("hi"):
+// Here’s an example of a JavaScript function that takes another function as an argument
+// and then calls it to show console.log("function as an argument"):
 
 // Define a function that takes another function as an argument
 function executeFunction(fn) {
@@ -7,9 +8,9 @@ function executeFunction(fn) {
 }
 
 // Define the function that will be passed
-function sayHi() {
-  console.log("hi");
+function functionAsAnAgrument() {
+  console.log(`function as an argument`);
 }
 
 // Pass the sayHi function to executeFunction
-executeFunction(sayHi);
+executeFunction(functionAsAnAgrument);
