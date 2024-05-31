@@ -1,5 +1,4 @@
-// bubble sort algo
-
+// bubble sort
 let array = [1, 4, 6, 8, 9, 0, 10];
 const bubblesort = (array) => {
   for (let index = array.length; index > 0; index--) {
