@@ -17,6 +17,6 @@ function reverseStrings(inputArray) {
   return outputArray;
 }
 
-const input = ["hi", "hello", "shahzad", "Ahmad"];
+const input = ["hi", "hello", "shahzad", "khan"];
 const output = reverseStrings(input);
-console.log(output); // ["ih", "olleh"]
+console.log(output);
