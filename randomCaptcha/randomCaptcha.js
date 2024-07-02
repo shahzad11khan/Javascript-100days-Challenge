@@ -6,7 +6,7 @@ let result = "";
 
 for (let i = 0; i < lengthOfCaptcha; i++) {
   let randomNumber = Math.floor(Math.random() * characters.length);
-  // console.log(randomNumber); // it will return only digits
+  console.log(randomNumber); // it will return only digits
   result += characters.substring(randomNumber, randomNumber + 1);
 }
 

@@ -4,14 +4,15 @@
 // password not be empty
 let password = "Shahzad khan1";
 // let password = "";
-const checkpassword = password.split(" ").join("");
+const checkpassword = password.replace(/\s/g, ""); // Remove all spaces
 console.log("Remove space from the middle: ", checkpassword);
+
 if (password.includes(" ")) {
-  return true; // Password is valid
+  console.log("Password is valid"); // Password is valid because it contains a space
 } else if (checkpassword === "") {
   console.log("Enter password....!");
 } else if (checkpassword.length < 8) {
-  console.log("password length must be at least 8 characters");
+  console.log("Password length must be at least 8 characters");
 } else if (!/[A-Z]/.test(checkpassword)) {
   console.log("Password must contain at least 1 uppercase letter");
 } else if (!/[0-9]/.test(checkpassword)) {

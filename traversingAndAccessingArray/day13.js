@@ -1,5 +1,5 @@
 //  Array traversing and accessing DSA point of you
-//indexes      //0  1  2   3  4  5  6   7  8   9  10
+//indexes   //0  1  2   3  4  5  6   7  8   9  10
 let array = [12, 3, 45, 6, 7, 4, 23, 13, 65, 7, 0];
 
 // use for loop Array Traversing
