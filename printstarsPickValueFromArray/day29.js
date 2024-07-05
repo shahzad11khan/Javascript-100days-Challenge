@@ -1,4 +1,4 @@
-//  create start from the array elements
+//  create initial from the array elements
 //  1: *
 // 3: ***
 // 7: *******
@@ -10,7 +10,7 @@ for (let i = 0; i < array.length; i++) {
   for (let j = 0; j < array[i]; j++) {
     starCount = starCount + "*";
   }
-  console.log("Number of stars:", starCount);
+  console.log("Number of stars:", array[i], starCount);
   //   console.log(" ");
   starCount = " ";
 }

@@ -15,11 +15,12 @@
 
 // uderstanding of hositing
 sayhellow();
-console.log(i);
+console.log("first: ", i);
 function sayhellow() {
   console.log("hello");
 }
 var i = 10;
+console.log("second: ", i);
 
 // output
 // hellow
